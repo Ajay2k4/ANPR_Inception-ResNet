@@ -31,5 +31,6 @@ Optical Character Recognition (OCR):
 
 Extract characters from the detected number plates using EasyOCR.
 Perform post-processing to refine and standardize the extracted text.
+
 Results
 Our ANPR system demonstrates high accuracy, achieving over 95% in recognizing and extracting alphanumeric characters from number plates. Performance metrics such as precision, recall, and F1 score further validate its efficacy in diverse conditions.
