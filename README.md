@@ -9,17 +9,29 @@ Automatic Number Plate Recognition (ANPR) System! This project applies Deep Lear
 🔹 Project Overview
 Our ANPR system follows a structured pipeline:
 🔸 Data Preparation – Grayscale conversion, bilateral filtering, edge detection (Canny), and data augmentation (rotation, scaling, flipping) for better generalization.
+
 🔸 Model Training – Used InceptionResNetV2 for deep feature extraction, fine-tuned with custom layers, and applied transfer learning for improved performance.
+
 🔸 License Plate Detection – Deployed the trained model for plate detection, using non-maximum suppression to refine accuracy.
+
 🔸 License Plate Extraction – Cropped detected plates for further processing.
+
 🔸 Optical Character Recognition (OCR) – Used EasyOCR for high-accuracy text extraction across various fonts and languages, with post-processing for standardization.
+
 🔸 Output Generation – Displayed or stored recognized plate numbers for further use.
 
+
+
 🎯 Key Learnings from this Project
+
 ✅ Improved my Computer Vision & Deep Learning skills.
+
 ✅ Worked with InceptionResNetV2 for Object Detection.
+
 ✅ Enhanced OCR performance using EasyOCR & preprocessing techniques.
+
 ✅ Optimized real-time processing for live video stream recognition.
+
 
 
 🚗 Results: Achieved 95%+ accuracy in recognizing alphanumeric characters from number plates, validated by precision, recall, and F1-score metrics!
