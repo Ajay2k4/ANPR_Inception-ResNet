@@ -2,6 +2,31 @@
 Automatic Number Plate Recognition (ANPR) System
 Overview
 Welcome to the Automatic Number Plate Recognition (ANPR) System project! This repository contains our work on developing a robust and efficient ANPR system leveraging the power of computer vision and deep learning. Our system aims to accurately detect and recognize vehicle number plates in real-time, making it a valuable tool for traffic management, law enforcement, and smart city applications.
+Automatic Number Plate Recognition (ANPR) System! This project applies Deep Learning & OCR to accurately detect and recognize vehicle number plates in real-time. 🚀
+
+
+
+🔹 Project Overview
+Our ANPR system follows a structured pipeline:
+🔸 Data Preparation – Grayscale conversion, bilateral filtering, edge detection (Canny), and data augmentation (rotation, scaling, flipping) for better generalization.
+🔸 Model Training – Used InceptionResNetV2 for deep feature extraction, fine-tuned with custom layers, and applied transfer learning for improved performance.
+🔸 License Plate Detection – Deployed the trained model for plate detection, using non-maximum suppression to refine accuracy.
+🔸 License Plate Extraction – Cropped detected plates for further processing.
+🔸 Optical Character Recognition (OCR) – Used EasyOCR for high-accuracy text extraction across various fonts and languages, with post-processing for standardization.
+🔸 Output Generation – Displayed or stored recognized plate numbers for further use.
+
+🎯 Key Learnings from this Project
+✅ Improved my Computer Vision & Deep Learning skills.
+✅ Worked with InceptionResNetV2 for Object Detection.
+✅ Enhanced OCR performance using EasyOCR & preprocessing techniques.
+✅ Optimized real-time processing for live video stream recognition.
+
+
+🚗 Results: Achieved 95%+ accuracy in recognizing alphanumeric characters from number plates, validated by precision, recall, and F1-score metrics!
+Looking forward to working on more impactful AI solutions!
+Would love to connect with fellow AI & Computer Vision enthusiasts! Let’s discuss more innovative AI-driven solutions. 🚀
+
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/13b0459b-1452-4737-9912-527ed6981efd" />
 
 Key Features
 Advanced Preprocessing: The system enhances image quality through grayscale conversion, bilateral filtering, and edge detection using the Canny algorithm, ensuring high clarity for contour extraction.
